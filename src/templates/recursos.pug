@@ -1,0 +1,47 @@
+extends incuLayout
+block content
+	
+	h1.text-center.mb-5 Nuestros Recursos
+	.Resources
+		a(href="https://drive.google.com/open?id=1MG4nSsUrmZeBkMdNyBSxY9863Pr8t9Lz3gL1KuT9ig0" target="_blank")
+			.ritem
+				h5.rtext Plan de negocio
+				p 
+					i Una completa plantilla para armar el plan de negocio para tu proyecto.
+		a(href="https://drive.google.com/open?id=1_tkTdNcqEOcKKK7pCKU7z1twawpee5Ag0-ujqv4lPX4" target="_blank")
+			.ritem
+				h5.rtext Taller de Redes sociales
+				p
+					i Aprende sobre como manejar las redes de manera efectiva. Que contenido publicar y los diferentes maneras de comunicar..
+		a(href="https://drive.google.com/open?id=1u5mwLZD4w5GCXRusl2W_XtAWMbkS_PEl" target="_blank")
+			.ritem
+				h5.rtext Pestel y FODA
+				p
+					i Descarga plantillas para analizar tu proyecto con los modelos Pestel y FODA
+		a(href="https://drive.google.com/open?id=13KW-SJDWSO514_KGiMrtyLrmvc7NhNxO" target="_blank")
+			.ritem
+				h5.rtext Lean Canvas
+				p
+					i Describe tu negocio de forma sintetica y estrategica con la plantilla Lean Canvas.
+		a(href="https://drive.google.com/open?id=1WldhDYXlrxvqarHEGKJsMSncWvUGYEQ8" target="_blank")
+			.ritem
+				h5.rtext Hacer un MVP
+				p
+					i Testea tu negocio antes de lanzarte con un MVP !
+	
+	p.text-center.mt-5 Si buscas algo en particular puedes indicarnos en los comentarios.
+	div.mt-5.
+		<div id="disqus_thread"></div>
+block scripts
+	
+	script.
+		var disqus_config = function () {
+			this.page.url = "https://incubadoraitinerante.com";
+			this.page.identifier = incubadoraitinerante;
+		};
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://incubadoraitinerante.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();

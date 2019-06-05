@@ -1,0 +1,10 @@
+extends incuLayout.pug
+block content
+	h1.text-center.mb-5 Donde estamos ahora?
+	div.
+		<style scoped>
+			#mapid { height: 500px; }
+		</style>
+		<div id="mapid"></div>
+block scripts
+	+locationMapScript()

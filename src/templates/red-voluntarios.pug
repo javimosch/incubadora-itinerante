@@ -1,0 +1,55 @@
+extends incuLayout
+block headerBottom
+	div.HeaderBottomNews.pl-5.pr-5
+		.row.no-gutters
+			.col-12.HeaderMessageWrapper.News
+				.div.HeaderMessageTextBackground.News
+					h1.text-center.m-0.p-0 Red de voluntarios
+					p.m-0.mt-3.text-center Te acercamos a los proyectos que apoyamos
+				
+block content
+	div
+		.row
+			.col-12
+				//h1.text-center Proyectos
+				p.text-center(style="font-size: 20px;") Nuestra vision es de incentivar y ayudar a otras personas a viajar compartiendo sus conocimientos con emprendedores y asociaciones con impacto social y ambiental. Si quieres visitar a los proyectos que apoyamos para un voluntariado o si buscas consejos para armar tu propio itinerario de voluntariado, contactanos ! Estaremos felices de poder ayudar ;)
+				p.text-center(style="font-size: 20px;") Notre vision est d’encourager et aider d’autres personnes à voyager autrement et à profiter de leur voyage pour transmettre leurs connaissances avec des entrepreneurs sociaux et associations sur leur chemin ! Si tu souhaites rencontrer les entrepreneurs que nous avons visité ou si tu souhaites être conseillé pour créer ton propre projet de voyage, n’hésites pas à nous contacter ! Nous serions heureux de pouvoir aider ;)
+				p.text-center(style="font-size: 20px;") Our vision is to encourage and help other travelers to share their knowledge with social entrepreneur or associations while traveling. If you want to visit some of the projects we met or if you wish to create your own project and your own itinerary, don’t hesitate to contact us ! We would be pleased to help you ;)
+		.row.mt-5
+			.col-12
+				a.text-center.VolunteerCTAButton(href="https://airtable.com/shrmOz0AeHmmTPM1t" target="_blank") Estoy interesado !
+		.row.mt-3
+			.col-12
+				.Resources
+					a(href="/proyectos-visitados")
+						.ritem
+							h5.rtext Proyectos
+							p 
+								i Conoce los proyectos que visitamos. Siempre necesitan una mano!
+					a(href="http://m.me/incubadoraitinerante" target="_blank")
+						.ritem
+							h5.rtext Consejos
+							p
+								i Queres armar tu propio recorrido ? Hablemos !
+
+			//.col-12.col-lg-6
+						a(href='https://www.anagavec.com/' target="_blank") 
+							.ArticleThumb.m-2
+								h3.mt-2 Anagavec
+								.row.no-gutters
+									.col-12.col-md-auto
+										img.ArticleThumbImage.mx-auto.d-block.float-md-left(src="https://static.wixstatic.com/media/3385b5_1468ee6e10cc4acf8c297675100acc67~mv2.jpg/v1/fill/w_125,h_90,al_c,q_80,usm_0.66_1.00_0.01/logo.webp")
+									.col-12.col-md
+										p.pl-md-2 Anagavec busca convertir la planta de Agave o Penco en un recurso valioso para Ecuador, cooperando con Productores locales para cultivar y obtener productos transformados de mayor calidad y valor agregado.
+			//.col-12.col-lg-6
+						a(href='https://mujerysociedad.org.pe/quienes-somos/' target="_blank")
+							.ArticleThumb.m-2
+								h3.mt-2 Mujer y Sociedad
+								.row.no-gutters
+									.col-12.col-md-auto
+										img.ArticleThumbImage.mx-auto.d-block.float-md-left(src="https://mujerysociedad.org.pe/wp-content/uploads/2018/06/logoMYS.png")
+									.col-12.col-md
+										p.pl-md-2 Primera revista feminista del Peru en los años 80, MYS sigue luchando para los derechos y el empoderamiento de la mujer por medio de la prevención contra la violencia de género y el emprendimiento.
+		
+block scripts
+	//script(src="/js/news")

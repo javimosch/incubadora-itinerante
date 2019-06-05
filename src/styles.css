@@ -1,0 +1,419 @@
+.Content h1 {
+	color: #324A5D;
+	text-align: left;
+	margin-bottom: 25px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Content p {
+	color: #324A5D;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+}
+
+.ArticleThumb {
+	min-height: 210px;
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 5px 28px -7px rgba(0, 0, 0, .3), 0px 4px 15px 5px rgba(72, 176, 183, 0);
+}
+
+.mapSmall { 
+	height: 350px; 
+}
+
+.LocationWrapper{
+		min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.VolunteerCTAButton{
+display: block;
+    font-size: 30px;
+    padding: 20px;
+    }
+
+.ArticleThumbImage {
+	max-width: 100px;
+}
+
+.font-light {
+	font-weight: 100;
+}
+
+.NewsList p {
+	text-align: left;
+}
+
+.MainContent {
+	min-height: calc(100vh);
+}
+
+.facebookIcon {
+	font-size: 35px;
+}
+
+.azulGris {
+	color: #324A5D !important;
+}
+
+.azulGrisHover:hover {
+	color: #324A5D !important;
+}
+
+.azulGrisBg {
+	background-color: #324A5D !important;
+}
+
+.amarillo {
+	color: #FDDA31 !important;
+}
+
+.amarilloBg {
+	background-color: #FDDA31 !important;
+}
+
+.HeaderMessageWrapper {
+	min-height: calc(100vh - 189px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.HeaderMessageWrapper.News {
+	min-height: 250px;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.HeaderBottom {
+	background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.65)), url(https://images.unsplash.com/photo-1512617835784-a92626c0a554?ixlib=rb-0.3.5…EyMDd9&s=8b3c0f7…&auto=format&fit=crop&w=2534&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.HeaderBottomNews {
+	background: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.35)), url(https://images.unsplash.com/photo-1510844355160-2fb07bf9af75?ixlib=rb-0.3.5&s=f97d7e7c08484b7abdff4fd7ce477796&auto=format&fit=crop&w=2550&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.HeaderMessageTitle {
+	font-size: 25px;
+	color: #324A5D !important
+}
+
+.HeaderMessageText {
+	font-size: 20px;
+	text-align: center !important;
+	max-width: 800px;
+	display: block;
+	margin: 0 auto;
+	color: #324A5D !important
+}
+
+.NotyMessage {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	display: flex;
+	background: #333;
+	padding: 20px;
+	color: white;
+	z-index: 999999999;
+	font-size: 12px;
+}
+
+.ArticleCreatedBy {
+	margin-top: 20px;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.FeatureBlock {
+	margin: 5px;
+	min-height: 250px;
+	min-width: 250px;
+	background: lightgrey;
+	background-size: cover;
+	background-repeat: no-repeat !important;
+}
+
+.f1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25)), url('https://res.cloudinary.com/misitioba/image/upload/v1539625077/incubadora_itinerante/diagnostico.jpg');
+	background-size: cover;
+}
+
+.f2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.55)), url('https://res.cloudinary.com/misitioba/image/upload/v1539029048/incubadora_itinerante/maticher.jpg');
+	background-size: cover;
+}
+
+.f4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)), url('https://res.cloudinary.com/misitioba/image/upload/c_scale,w_500/v1539030863/incubadora_itinerante/mamanosalaobra.png');
+	background-size: cover;
+}
+
+.f3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65)), url('https://res.cloudinary.com/misitioba/image/upload/v1539031114/incubadora_itinerante/Screen_Shot_2018-10-08_at_22.38.05.png');
+	background-size: cover;
+}
+
+.FeatureBlockText, .Content p.FeatureBlockText {
+	font-size: 16px;
+	color: white;
+}
+
+a{
+	color:#0056b3!important;
+}
+a:hover {
+	text-decoration: none;
+	color:#007bff!important;
+}
+
+.tiny {
+	font-size: 9px;
+}
+
+.LayoutTwo {}
+
+.LayoutChild {
+	display: inline-block;
+}
+
+.One {
+	width: calc(70vw);
+}
+
+.Two {
+	width: calc(30vw);
+}
+
+body {
+	color: black;
+}
+
+footer {
+	min-height: 200px;
+	background: #324A5D;
+	line-height: 50px;
+	padding: 20px;
+}
+
+footer a {
+	color: white!important;
+}
+
+footer a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.Flex {
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.NavItem{
+	padding: 0px 20px;
+}
+
+.Header .Navbar {
+	height: 100px;
+	flex-direction: column;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+
+.HomeVideo {
+	min-width: 540px;
+}
+@media only screen and (max-width: 540px) {
+	.HomeVideo{
+		min-width: calc(100vw);
+	}
+}
+
+
+@media only screen and (min-width: 992px) {
+	
+	.Header .Navbar {
+		float: right;
+    
+	}
+}
+
+.Header h1, .Header h3 {
+	text-align: center;
+	color: white;
+	width: -webkit-fill-available;
+}
+
+.Header {
+	background-color: white;
+}
+
+.Header img {
+	max-height: 100px;
+}
+
+.Header a {
+	color: #324A5D !important;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.HeaderMessageTextBackground {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+}
+
+.HeaderMessageTextBackground.News {
+	background: rgba(255, 255, 255, 0.4);
+	padding: 20px;
+}
+
+.Header a:hover {
+	text-decoration: none;
+	color: #324A5D;
+	background: white;
+}
+
+.Wrapper {
+	min-height: calc(100vh);
+}
+
+.DropdownList {}
+
+.DropdownList li {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.avatarWrapper {
+	height: 250px;
+	width: 450px;
+}
+
+@media only screen and (min-width: 768px) {
+	.Header .Navbar {
+		flex-direction: row;
+    margin: 0px;
+    width: fit-content;
+	}
+	.alignRightSm, .alignLeftSm {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 30px !important;
+	}
+	.alignLeftSm {
+		justify-content: flex-start;
+		padding-left: 30px !important;
+	}
+	.alignRightSm > div, .alignLeftSm > div {
+		margin: 0px;
+	}
+}
+
+.FlexCenter {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.avatar {
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+	.avatar {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+.ma {
+	background-image: url(https://res.cloudinary.com/misitioba/image/upload/v1502813491/misitioba/avatar/maelle-aubert.jpg);
+}
+
+.ja {
+	background-image: url(https://res.cloudinary.com/misitioba/image/upload/v1502814300/misitioba/avatar/javier-arancibia.jpg);
+}
+
+.DropdownList .Title {
+	border-radius: 8px 8px 0px 0px;
+	font-size: 30px;
+	font-weight: 500;
+	color: white;
+	background-color: indianred;
+	text-align: left;
+	margin: 0px;
+	padding: 5px 20px;
+}
+
+.DropdownList p {
+	padding: 10px 20px;
+	margin: 0px;
+}
+
+
+.Resources{
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	grid-gap: 10px;
+	grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+}
+.Resources .ritem{
+	padding: 50px;
+	background-color: #324a5d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: background-color 0.2s ease-in;
+	min-height: 300px;
+}
+@media only screen and (min-width:768px){
+	.Resources{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+.Resources .rtext{
+	text-align: center;
+	font-size: 25px;
+	color: lightgrey;
+	margin: 0px;
+}
+.Resources p{
+	color: white;
+	margin: 0px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.Resources a:hover .ritem{
+	background-color: #324a5dcc;
+}
+.Resources a:hover .rtext{
+	color:white;
+}

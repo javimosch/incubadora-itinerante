@@ -1,0 +1,59 @@
+include incuMixins
+
+head
+	+head()
+	script.
+		var initialState = JSON.parse(`!{JSON.stringify(initialState||{})}`)
+	block head
+		title!=(metaTitle&&metaTitle+" - Incubadora Itinerante")||"Incubadora Itinerante"
+	
+	link(rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin="")
+	
+	block headLinks
+	
+	script.
+		window.currentLocation = JSON.parse(`!{JSON.stringify(currentLocation||{})}`)
+	
+body
+	//	<script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=854972174854089&autoLogAppEvents=1"></script>
+	.fb.
+		<div id="fb-root"></div>
+		<script async defer src="https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v3.2&appId=854972174854089&autoLogAppEvents=1"></script>
+	
+	//script.
+		window.fbAsyncInit = function() {
+		FB.init({
+		xfbml            : true,
+		version          : 'v3.2'
+		});
+		};
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	#app
+		block header
+			+header()
+		
+		.row.no-gutters
+			.col-12
+				.Content
+					block headerBottom
+		.row.no-gutters
+			.col-12.col-md-12
+				.row.no-gutters
+					.col-12.mt-5
+						.Content.MainContent.pl-5.pr-5.mb-5
+							block content
+			//.col-12.col-md-3
+				block sidebar
+					+sidebar()
+	block footer
+		.row.no-gutters
+			+footer()
+	block scripts

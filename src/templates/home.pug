@@ -1,0 +1,23 @@
+extends incuLayout
+block headerBottom
+	div.HeaderBottom.pl-5.pr-5
+		.row.no-gutters
+			.col-12.HeaderMessageWrapper
+				.div.HeaderMessageTextBackground
+					h2.HeaderMessageTitle.text-center Bienvenido :)
+					p.HeaderMessageText Si tienes un proyecto de emprendimiento social, si estas empezando tu negocio o tu asociación, estas en la buena pagina !
+					p.HeaderMessageText Trabajamos en el acompañamiento de emprendedores y te vamos a visitar en donde te encuentres para ayudarte con tu proyecto.
+					p.HeaderMessageText 
+						span No dudes en 
+						a(href="https://www.facebook.com/incubadoraitinerante/" target="_blank") ponerte en contacto 
+						span con nosotros !
+	.row.no-gutters
+		.col-12.mt-5
+			h1.text-center.amarillo Para descrubir el proyecto mira nuestro video
+		.col-12.d-flex.justify-content-center.mt-4.mb-5
+			div.
+				<iframe class="HomeVideo" height="315" src="https://www.youtube.com/embed/A7bXps35jew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+block content
+	+main()
+block scripts
+	+locationMapScript()

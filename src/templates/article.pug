@@ -1,0 +1,24 @@
+extends incuLayout
+block headerBottom
+	div.HeaderBottomNews.pl-5.pr-5
+		.row.no-gutters
+			.col-12.HeaderMessageWrapper.News
+				.div.HeaderMessageTextBackground.News
+					h1.text-center.m-0.p-0 Diario de viaje
+					p.m-0.mt-3 Sigue nuestro itinerario y descubre los proyectos que visitamos
+						
+block content
+	div.NewsList
+		.row.no-gutters
+			.col-12.col-lg-9
+				a(href=item.publicUrl)
+					.ArticleThumb.m-2
+						#h2.mt-2=item.title
+						.row.no-gutters
+							.col-12.col-md
+								p.pl-md-2!=item.html
+			.col-12.col-lg-3.
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fincubadoraitinerante%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=854972174854089" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+block scripts
+	script.
+		$('img').addClass('img-fluid')
