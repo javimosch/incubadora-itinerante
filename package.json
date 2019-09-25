@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "node-sass": "^4.12.0",
+        "pug": "^2.0.4",
+        "sander": "^0.6.0"
+    },
+    "author": "arancibiajav@gmail.com",
+    "license": "GNU"
+}
