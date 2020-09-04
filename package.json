@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "node-sass": "^4.12.0",
+        "node-sass": "^4.13.1",
         "pug": "^2.0.4",
         "sander": "^0.6.0"
     },
